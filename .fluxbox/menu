@@ -1,0 +1,42 @@
+[begin] (---:::My BoX:::---)
+
+[separator]
+[exec] (Terminal) {urxvt}
+[submenu] (ssh)
+	[exec] (lucian) {urxvt -e ssh lucian}
+	[exec] (imrik) {urxvt -e ssh imrik}
+	[exec] (eliria) {urxvt -e ssh eliria}
+[end]
+[exec] (MC) {urxvt -e mc}
+[exec] (XMMS) {xmms}
+[exec] (Firefox) {firefox}
+[exec] (Openoffice) {ooffice2}
+[separator]
+[exec] (Rox) {rox}
+[submenu] (Extra)
+   [exec] (Gimp) {gimp}
+   [exec] (Conky) {conky}
+   [exec] (Conky Stop) {killall conky}
+   [exec] (aMSN) {/home/kupo/msn/amsn}
+   [exec] (licq) {licq}
+   [submenu] (Wallpapers)
+   	 [wallpapers] (~/jpg/bg) {fbsetbg -f}
+   [end]
+[end]
+[separator]
+[submenu] (Configure this...)
+  [config] (Configuration)
+   [submenu] (Styles) {}
+      [stylesdir] (/usr/share/fluxbox/styles)
+      [stylesdir] (~/.fluxbox/styles)
+[end]
+[workspaces] (Workspaces)
+[reconfig] (Reconfigure)
+[restart] (Restart)
+[end]
+[separator]
+[submenu] (Exit)
+	[exit] (Exit)
+[end]
+[exec] (lock screen) {xscreensaver-command -lock}
+[end] 

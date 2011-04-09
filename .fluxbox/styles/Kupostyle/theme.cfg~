@@ -1,0 +1,13 @@
+*color:             slategrey
+*colorTo:           darkslategrey
+*unfocus.color:     darkslategrey
+*unfocus.colorTo:   black
+*textColor:         white
+*unfocus.textColor: lightgrey
+*font:              lucidasans-10
+
+menu.title: Raised Gradient Pyramid
+menu.frame: Solid Sunken
+menu.frame.color: magenta
+menu.frame.font: -*-lucida-medium-r-normal-*-12-*-*-*-*-*-iso8859-1
+rootCommand: bsetroot -gradient Pyramid -bg black -fg magenta

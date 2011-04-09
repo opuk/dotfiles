@@ -1,0 +1,8 @@
+vbell on
+defutf8 on
+autodetach on
+startup_message off
+defscrollback 1000
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%w"
