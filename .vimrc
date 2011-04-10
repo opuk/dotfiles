@@ -7,6 +7,8 @@ set shiftwidth=4
 set ruler
 set number
 set expandtab
+set autoindent
+set smartindent
 syntax on
 
 map <F11> :call Paste_on_off()<CR>
