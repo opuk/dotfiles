@@ -25,3 +25,4 @@ func! Paste_on_off()
 	endif
 	return
 endfunc
+
