@@ -3,12 +3,11 @@ set background=dark
 set numberwidth=1
 set autoindent
 set backspace=2
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set ruler
 set number
 set expandtab
-set autoindent
 set smartindent
 syntax on
 
