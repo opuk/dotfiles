@@ -1,4 +1,5 @@
 set nocompatible
+set background=dark
 set numberwidth=1
 set autoindent
 set backspace=2
