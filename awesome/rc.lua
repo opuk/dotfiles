@@ -216,6 +216,8 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Control" }, "k", function () awful.screen.focus_relative(-1) end),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto),
     awful.key({ modkey,           }, "Tab",
+    
+    awful.key({ modkey }, "o", awful.client.movetoscreen),
         function ()
             awful.client.focus.history.previous()
             if client.focus then
