@@ -218,6 +218,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,           }, "Tab",
     
     awful.key({ modkey }, "o", awful.client.movetoscreen),
+    awful.key({ modkey, "Shift" }, "f",  awful.client.floating.toggle ),
         function ()
             awful.client.focus.history.previous()
             if client.focus then
@@ -382,7 +383,8 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 --
 os.execute"nm-applet &"
 os.execute"xscreensaver &"
-os.execute"xsetroot -solid black"
+os.execute"xsetroot -solid black &"
+os.execute"wmname LG3D &"
 os.execute"xinput set-int-prop \"TPPS/2 IBM TrackPoint\" \"Evdev Wheel Emulation\" 8 1"
 os.execute"xinput set-int-prop \"TPPS/2 IBM TrackPoint\" \"Evdev Wheel Emulation Button\" 8 2"
 os.execute"xinput set-int-prop \"TPPS/2 IBM TrackPoint\" \"Evdev Wheel Emulation Timeout\" 8 200"
