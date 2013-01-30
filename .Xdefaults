@@ -5,7 +5,8 @@ URxvt*shading: -70
 URxvt*scrollstyle: plain
 URxvt*scrollBar: false
 URxvt*saveLines: 1000
-URxvt*font:	xft:Bitstream Vera Sans Mono:pixelsize=9
+#URxvt*font:	xft:Bitstream Vera Sans Mono:pixelsize=9
+URxvt*font: xft:Terminus:antialias=true:pixelsize=9,xft:unifont:autohint=false:antialias=false:minspace=False
 URxvt*termName: rxvt
 URxvt*tint: red
 URxvt.perl-ext-common: default,matcher
