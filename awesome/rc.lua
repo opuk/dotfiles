@@ -35,6 +35,7 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
 beautiful.init("/usr/share/awesome/themes/default/theme.lua")
+theme.wallpaper_cmd = { "xsetroot -solid black" }
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
@@ -384,7 +385,6 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 --
 os.execute"nm-applet &"
 os.execute"xscreensaver &"
-os.execute"xsetroot -solid black &"
 os.execute"wmname LG3D &"
 os.execute"xinput set-int-prop \"TPPS/2 IBM TrackPoint\" \"Evdev Wheel Emulation\" 8 1"
 os.execute"xinput set-int-prop \"TPPS/2 IBM TrackPoint\" \"Evdev Wheel Emulation Button\" 8 2"
