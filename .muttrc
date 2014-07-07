@@ -1,0 +1,16 @@
+set from = 'changeme'
+set realname = 'changeme'
+set imap_user = 'changeme'
+
+set folder = "imaps://changeme:993"
+set spoolfile = "+INBOX"
+
+set smtp_url = "smtp://changeme:25"
+
+set move = no
+
+set editor='vim'
+
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
