@@ -6,3 +6,5 @@ ln -s dotfiles/.vimrc .
 mkdir -p ~/.i3
 pushd .i3
 ln -s ../dotfiles/.i3/config config
+popd
+ln -s dotfiles/i3status.conf .i3status.conf
