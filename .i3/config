@@ -176,6 +176,11 @@ bindsym $mod+l exec i3lock -c 000000
 bindsym $mod+m exec arandr
 bindsym $mod+c exec caja --no-desktop
 
+#volume control
+#bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
+#bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
+#bindsym XF86AudioMute exec amixer -q set Master toggle
+
 #exec_always mate-power-manager
 exec_always mate-volume-control-applet
 
