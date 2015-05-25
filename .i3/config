@@ -169,6 +169,19 @@ bar {
 
 
 #custom
+#
+
+#workspace screens
+workspace 1 output HDMI3
+workspace 2 output HDMI3
+workspace 3 output HDMI3
+workspace 4 output HDMI3
+workspace 5 output VGA1
+workspace 6 output VGA1
+workspace 7 output VGA1
+workspace 8 output VGA1
+
+
 bindsym $mod+l exec i3lock -c 000000
 #bindsym $mod+m         exec xrandr --output HDMI3 --off && exec xrandr --output VGA1 --off && exec xrandr --output LVDS1 --auto
 #bindsym $mod+shift+m   exec xrandr --output LVDS1 --off && exec xrandr --output HDMI3 --auto --left-of VGA1
@@ -186,6 +199,7 @@ exec_always mate-volume-control-applet
 
 
 exec xsetroot -solid black
+exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1
 exec --no-startup-id nm-applet
 exec dunst
 exec seapplet
