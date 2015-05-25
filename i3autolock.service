@@ -3,6 +3,7 @@ Description=Lock the screen automatically after a timeout
 
 [Service]
 Type=simple
+Restart=on-failure
 User=jswensso
 Environment=DISPLAY=:0
 ExecStart=/usr/bin/xautolock -time 5 -locker "/usr/bin/i3lock -c 000000"
