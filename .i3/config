@@ -189,5 +189,6 @@ exec xsetroot -solid black
 exec --no-startup-id nm-applet
 exec dunst
 exec seapplet
+exec SpiderOakBlue
 
 
