@@ -24,7 +24,8 @@ libfontenc
 fontconfig
 xorg-x11-font-utils
 liberation-sans-fonts
-dejavu-sans-mono-fonts"
+dejavu-sans-mono-fonts
+liberation-narrow-fonts"
 
 sudo dnf install $fonts
 
