@@ -1,4 +1,6 @@
 #!/bin/sh
+sudo dnf install @base-x @libreoffice -y
+sudo dnf install -y rxvt-unicode firefox thunderbird vim-enhanced NetworkManager-wifi NetworkManager-openvpn dunst i3 i3lock evolution mate-media mate-power-manager network-manager-applet NetworkManager-tui i3status i3lock git xautolock caja arandr dbus-x11 pulseaudio polkit-gnome NetworkManager-openvpn-gnome cups foomatic virt-manager qemu-kvm libvirt nmap
 cd ~
 ln -s dotfiles/.Xdefaults .
 ln -s dotfiles/.vimrc .

@@ -154,8 +154,8 @@ bindsym $mod+r mode "resize"
 #}
 
 bar {
-    output VGA1
-    output LVDS1
+    output DP-3-2
+    output eDP-1
     output LVDS-1
 #        position top
     status_command i3status
@@ -163,6 +163,7 @@ bar {
 
 bar {
     output HDMI3
+    output DP-3-3
 #        position top
     tray_output none
 }
@@ -172,14 +173,14 @@ bar {
 #
 
 #workspace screens
-workspace 1 output HDMI3
-workspace 2 output HDMI3
-workspace 3 output HDMI3
-workspace 4 output HDMI3
-workspace 5 output VGA1
-workspace 6 output VGA1
-workspace 7 output VGA1
-workspace 8 output VGA1
+workspace 1 output DP-3-2
+workspace 2 output DP-3-2
+workspace 3 output DP-3-2
+workspace 4 output DP-3-2
+workspace 5 output DP-3-3
+workspace 6 output DP-3-3
+workspace 7 output DP-3-3
+workspace 8 output DP-3-3
 
 
 bindsym $mod+l exec i3lock -c 000000
@@ -204,6 +205,6 @@ exec --no-startup-id nm-applet
 exec dunst
 exec seapplet
 exec SpiderOakGroups
-exec ~/dotfiles/battery.sh
+#exec ~/dotfiles/battery.sh
 
 
